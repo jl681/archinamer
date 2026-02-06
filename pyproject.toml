@@ -1,0 +1,10 @@
+[project]
+name = "archinamer"
+version = "0.1.0"
+dependencies = [
+    "openai",
+    "python-dotenv",
+]
+
+[project.scripts]
+archinamer = "archinamer.main:run"
