@@ -36,8 +36,8 @@ pip install -e .
 # 6. Check for .env file
 if [ ! -f ".env" ]; then
     echo -e "${BLUE}⚠️  No .env file found. Creating a template...${NC}"
-    echo "GEMINI_API_KEY=your_api_key_here" > .env
-    echo "Please edit the .env file with your actual Gemini API key."
+    echo "DASHSCOPE_API_KEY=your_api_key_here" > .env
+    echo "Please edit the .env file with your actual QWEN api key."
 fi
 
 echo -e "${GREEN}✅ Setup Complete!${NC}"
