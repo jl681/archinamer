@@ -6,7 +6,9 @@
 
 Instead of just generating random names, it uses an LLM to clarify your intent (Personal vs. Enterprise, CLI vs. Web) before suggesting an industry-standard, context-aware name.
 
----
+## Example
+
+## ![alt text](english-example.png)
 
 ## ✨ Features | 功能特性
 
